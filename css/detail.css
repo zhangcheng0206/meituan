@@ -1,0 +1,7 @@
+/* 详情页的样式 */
+
+.search{margin-left:100px;}/*调整搜索框的位置*/
+.purchase-bd{overflow: hidden;}
+
+.purchase .gallery .cover-main {width: 460px; height: 280px; position: relative;}
+

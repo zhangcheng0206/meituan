@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="outer/list.css" />
+    <link rel="stylesheet" type="text/css" href="outer/sidebar.css" />
+    <link rel="stylesheet" type="text/css" href="css/list.css" />
+</head>
+
+<body>
+    <!-- top区域start -->
+    <div id="top">
+        <div class="w980 bc top">
+            <ul class="fl top-user">
+                <li class="collec"><a href="###">收藏美团</a></li>
+                <li class="load"><a href="###">登录</a></li>
+                <li class="reg"><a href="###">注册</a></li>
+            </ul>
+            <ul class="fr top-info">
+                <li><a href="###" style="border-right:0; padding-right:11px;">我的订单</a></li>
+                <li>
+                    <a href="###">我的美团</a>
+                    <i class="sanjiao"></i>
+                    <div class="cover-list">
+                        <ul>
+                            <li>申请退换货</li>
+                        </ul>
+                    </div>
+                    <div class="cover">我的美团<i class="sanjiaot"></i></div>
+                </li>
+                <li>
+                    <a href="###">最近浏览</a>
+                    <i class="sanjiao"></i>
+                    <div class="cover-list">
+                        <ul>
+                            <li>申请退换货</li>
+                        </ul>
+                    </div>
+                    <div class="cover">最近浏览<i class="sanjiaot"></i></div>
+                </li>
+                <li>
+                    <a href="###">
+                        联系客服
+                    </a>
+                    <i class="sanjiao"></i>
+                    <div class="cover-list">
+                        <ul>
+                            <li>申请退换货</li>
+                            <li>申请退换货</li>
+                            <li>申请退换货</li>
+                            <li>申请退换货</li>
+                            <li>申请退换货</li>
+                            <li>申请退换货</li>
+                        </ul>
+                    </div>
+                    <div class="cover">联系客服<i class="sanjiaot"></i></div>
+                </li>
+                <li>
+                    <a href="###">我是商家</a>
+                    <i class="sanjiao"></i>
+                    <div class="cover-list">
+                        <ul>
+                            <li>申请退换货</li>
+                        </ul>
+                    </div>
+                    <div class="cover">我是商家<i class="sanjiaot"></i></div>
+                </li>
+                <li>
+                    <a href="###">代理商招募</a>
+                    <i class="sanjiao"></i>
+                    <div class="cover-list">
+                        <ul>
+                            <li>申请退换货</li>
+                        </ul>
+                    </div>
+                    <div class="cover">代理商招募<i class="sanjiaot"></i></div>
+                </li>
+                <li>
+                    <a href="###" style="border-right: 0;">更多</a>
+                    <i class="sanjiao"></i>
+                    <div class="cover-list">
+                        <ul>
+                            <li>申请退换货</li>
+                        </ul>
+                    </div>
+                    <div class="cover">更多<i class="sanjiaot"></i></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- top区域end -->
+    <!-- logo区域start -->
+    <div class="w980 bc" id="logo">
+        <div class="logo fl">
+            <h1>
+                <a href="###">
+                    <img src="img/logo.png" />
+                </a>
+            </h1>
+            <ul>
+                <li class="city">北京</li>
+                <li class="city-btn"><a href="###">切换城市</a></li>
+            </ul>
+        </div>
+        <div class="search fl">
+            <div class="search-top">
+                <button class="tuangou" id="tuangou">
+                    <a href="###">团购</a>
+                    <i class="sanjiao"></i>
+                    <div class="tuangou-toggle" id="tuangou_toggle">商家</div>
+                </button>
+                <input type="text" placeholder="请输入商品名称、地址等" />
+                <button class="sousuo">搜索</button>
+            </div>
+            <div class="href-list">
+                <a href="###">虾吃虾涮</a>
+                <a href="###">比格</a>
+                <a href="###">大渔</a>
+                <a href="###">海鲜</a>
+                <a href="###">烤肉</a>
+                <a href="###">俏江南</a>
+                <a href="###">东来顺</a>
+                <a href="###">蛋糕</a>
+                <a href="###">味多美</a>
+            </div>
+        </div>
+        <ul class="tui fr">
+            <li>
+                <a href="###"></a>
+                <img src="img/tui.png" />
+                <p>随时退</p>
+            </li>
+            <li>
+                <a href="###"></a>
+                <img src="img/manyi.png" />
+                <p>不满意免单</p>
+            </li>
+            <li>
+                <a href="###"></a>
+                <img src="img/guoqi.png" />
+                <p>过期退</p>
+            </li>
+        </ul>
+    </div>
+    <!-- logo区域end -->
+    <!-- nav区域start -->
+    <div class="w980 bc" id="nav">
+        <h2 class="fl" style="z-index: 998;">
+            <a href="###">全部分类</a>
+            <span></span><!--  在列表页和详情页添加-->
+            <!-- 二级菜单start -->
+            <div class="subnav">
+                <ul class="subnav-list">
+                    <li>
+                        <a href="###" class="fl">美食</a>
+                        <a href="###" class="fr">代金券</a>
+                        <a href="###" class="fr">自助餐&nbsp;</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">酒店/客栈</a>
+                        <a href="###" class="fr">经济型酒店</a>
+                        
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">猫眼电影/在线选座</a>
+                        
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">KTV</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">休闲娱乐</a>
+                        <a href="###" class="fr">温泉</a>
+                        <a href="###" class="fr">足疗按摩&nbsp;</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">周边游/旅游</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">机票</a>
+                        <a href="###" class="fr">国际机票</a>
+                        <a href="###" class="fr">国内机票&nbsp;</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">生活服务</a>
+                        <a href="###" class="fr">个性写真</a>
+                        <a href="###" class="fr">婚纱摄影&nbsp;</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                    <li>
+                        <a href="###" class="fl">丽人</a>
+                        <a href="###" class="fr">美甲美睫</a>
+                        <a href="###" class="fr">美发&nbsp;</a>
+                        <div class="line t dis"></div>
+                        <div class="line l dis"></div>
+                        <span>></span>
+                    </li>
+                    <!-- 三级菜单start -->
+                    <ul class="threenav dis">
+                            
+                    </ul>
+                    <!-- 三级菜单end -->
+                </ul>
+            </div>
+            <!-- 二级菜单end -->
+        </h2>
+        <ul class="nav-list fl">
+            <li class="fl"><a href="index.html">首页</a></li>
+            <li class="fl"><a href="list.html">今日新单</a></li>
+            <li class="fl"><a href="###">美食</a></li>
+            <li class="fl"><a href="###">身边外卖</a></li>
+        </ul>
+    </div>
+    <!-- nav区域end -->
+    <!-- 主体内容start-->
+    <div class="w980 bc mt15">
+        <!-- 条件过滤 start -->
+        <div class="filter">
+            <!-- 筛选条件 start -->
+            <div class="condition">
+                <div class="breadcrumb">
+                    <span class="breadcrumb-item"><a href="">全部</a></span>
+                    <i class=""></i>
+                </div>
+                <div class="condition-item">
+                    <div class="label">分类：</div>
+                    <ul>
+                        <li class="cur"><a href="">全部</a></li>
+                        <li><a href="">代金券</a></li>
+                        <li><a href="">甜点饮品</a></li>
+                        <li><a href="">火锅</a></li>
+                        <li><a href="">自助餐</a></li>
+                        <li><a href="">小吃快餐</a></li>
+                        <li><a href="">日韩料理</a></li>
+                        <li><a href="">西餐</a></li>
+                        <li><a href="">聚餐宴请</a></li>
+                        <li><a href="">烧烤烤肉</a></li>
+                        <li><a href="">东北菜</a></li>
+                        <li><a href="">川湘菜</a></li>
+                        <li><a href="">江浙菜</a></li>
+                        <li><a href="">香锅烤鱼</a></li>
+                        <li><a href="">粤港菜</a></li>
+                        <li><a href="">中式烧烤/烤串</a></li>
+                        <li><a href="">西北菜</a></li>
+                        <li><a href="">咖啡酒吧茶馆</a></li>
+                        <li><a href="">云贵菜</a></li>
+                        <li><a href="">东南亚菜</a></li>
+                        <li><a href="">海鲜</a></li>
+                        <li><a href="">素食</a></li>
+                        <li><a href="">台湾/客家菜</a></li>
+                        <li><a href="">创意菜</a></li>
+                        <li><a href="">汤/粥/炖菜</a></li>
+                        <li><a href="">荤餐</a></li>
+                        <li><a href="">新疆菜</a></li>
+                        <li><a href="">其他美食</a></li>
+                        <li><a href="">京菜鲁菜</a></li>
+                    </ul>
+                </div>
+                <div class="condition-item">
+                    <div class="label">区域：</div>
+                    <ul>
+                        <li class="cur"><a href="">全部</a></li>
+                        <li><a href="">地铁附近</a></li>
+                        <li><a href="">朝阳区</a></li>
+                        <li><a href="">海淀区</a></li>
+                        <li><a href="">丰台区</a></li>
+                        <li><a href="">西城区</a></li>
+                        <li><a href="">东城区</a></li>
+                        <li><a href="">昌平区</a></li>
+                        <li><a href="">石景山区</a></li>
+                        <li><a href="">通州区</a></li>
+                        <li><a href="">大兴区</a></li>
+                        <li><a href="">顺义区</a></li>
+                        <li><a href="">房山区</a></li>
+                        <li><a href="">密云县</a></li>
+                        <li><a href="">怀柔区</a></li>
+                        <li><a href="">延庆县</a></li>
+                        <li><a href="">平台区</a></li>
+                        <li><a href="">门头沟</a></li>
+                    </ul>
+                </div>
+                <div class="condition-item" style="border-bottom: none;">
+                    <div class="label">人数：</div>
+                    <ul>
+                        <li class="cur"><a href="">全部</a></li>
+                        <li><a href="">单人餐</a></li>
+                        <li><a href="">双人餐</a></li>
+                        <li><a href="">3-4人</a></li>
+                        <li><a href="">5-6人</a></li>
+                        <li><a href="">7-8人</a></li>
+                        <li><a href="">9-10人</a></li>
+                        <li><a href="">10人以上</a></li>
+                        <li><a href="">其他</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 筛选条件 end -->
+            <!-- 排序依据 start -->
+            <div class="sort mt10">
+                <ul class="fl">
+                    <li class="cur"><a href="">默认</a></li>
+                    <li><a href="">销量<span class="btn-img"></span></a></li>
+                    <li><a href="">价格<span class="btn-img"></span></a></li>
+                    <li><a href="">好评<span class="btn-img"></span></a></li>
+                    <li><a href="">发布时间<span class="btn-img"></span></a></li>
+                </ul>
+                <div class="price fl">
+                    <a href="" class="price-btn">
+                        <span>价格区间</span>
+                        <i class="tri-icon"></i>
+                    </a>
+                    <div class="price-list" style="display: none;">
+                        <ul>
+                            <li><a href="">50元以下</a></li>
+                            <li><a href="">50-100元</a></li>
+                            <li><a href="">100-150元</a></li>
+                            <li><a href="">150-200元</a></li>
+                            <li><a href="">200-500元</a></li>
+                            <li><a href="">500元以上</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="extra fl">
+                    <a href="">代金券</a>
+                    <a href="">急速退</a>
+                    <a href="">免预约</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- 排序依据 end -->
+        </div>
+        <!-- 条件过滤 end -->
+        <!-- 团购列表 start -->
+        <div class="list">
+            <ul>
+                <li>
+                    <a href="" class="item-pic"><img src="images/list-pic1.jpg" alt="" /></a>
+                    <div class="item-info">
+                        <div class="item-info-desc">
+                            <i class="shangjia"></i>
+                            <a href="">味多美（中关村店）</a>
+                            <span class="icons">
+                                <a href="" class="icon-quan">券</a>
+                                <a href="" class="icon-tuan">团</a>
+                            </span>
+                        </div>
+                        <div class="item-info-extra">
+                            <div class="tag">
+                                <a href="">美食</a>
+                                <a href="">中关村</a>
+                            </div>
+                            <div class="rate">
+                                <span><strong></strong></span>
+                                <a href="">86人评价</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span>人均 ¥27</span>
+                        <a href=""><strong>￥128</strong>起</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="item-pic"><img src="images/list-pic2.jpg" alt="" /></a>
+                    <div class="item-info">
+                        <div class="item-info-desc">
+                            <i class="shangjia"></i>
+                            <a href="">王婆大虾（圣熙八号店）</a>
+                            <span class="icons"><a href="" class="icon-quan">券</a></span>
+                        </div>
+                        <div class="item-info-extra">
+                            <div class="tag">
+                                <a href="">美食</a>
+                                <a href="">五道口</a>
+                            </div>
+                            <div class="rate">
+                                <span><strong></strong></span>
+                                <a href="">暂无评价</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <a href=""><strong>￥132</strong>起</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="item-pic"><img src="images/list-pic3.jpg" alt="" /></a>
+                    <div class="item-info">
+                        <div class="item-info-desc">
+                            <i class="shangjia"></i>
+                            <a href="">YO.YO优优千层蛋糕（中关村外送店）</a>
+                            <span class="icons"><a href="" class="icon-tuan">团</a></span>
+                        </div>
+                        <div class="item-info-extra">
+                            <div class="tag">
+                                <a href="">美食</a>
+                                <a href="">中关村</a>
+                            </div>
+                            <div class="rate">
+                                <span><strong></strong></span>
+                                <a href="">暂无评价</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <a href=""><strong>￥168</strong>起</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="item-pic"><img src="images/list-pic4.jpg" alt="" /></a>
+                    <div class="item-info">
+                        <div class="item-info-desc">
+                            <i class="shangjia"></i>
+                            <a href="">醉爱时尚餐厅</a>
+                            <span class="icons"><a href="" class="icon-quan">券</a></span>
+                        </div>
+                        <div class="item-info-extra">
+                            <div class="tag">
+                                <a href="">美食</a>
+                                <a href="">五道口</a>
+                            </div>
+                            <div class="rate">
+                                <span><strong></strong></span>
+                                <a href="">60人评价</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span>人均 ¥124</span>
+                        <a href=""><strong>￥1288</strong>起</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 团购列表 end -->
+        <!-- 侧栏 start -->
+        <div class="sidebar">
+            <div class="app-dl mt10">
+                <a href="" class="meituan">美团手机版</a>
+                <a href="" class="maoyan">猫眼电影</a>
+            </div>
+            <!-- 猜你喜欢 start -->
+            <div class="guess mt10">
+                <h3>猜你喜欢</h3>
+                <div class="guess-item">
+                    <a href="" class="guess-item-pic">
+                        <img src="images/guess-pic1.jpg" alt="" />
+                        <span>1</span>
+                    </a>
+                    <h4><a href="">【143店通用】吉野家板烧猪肉饭(小碗)+乌龙茶</a></h4>
+                    <p>￥<strong>10</strong> <span>已售</span>39345</p>
+                </div>
+                <div class="guess-item">
+                    <a href="" class="guess-item-pic">
+                        <img src="images/guess-pic2.jpg" alt="" />
+                        <span>2</span>
+                    </a>
+                    <h4><a href="">【27店通用】比格比萨自助餐</a></h4>
+                    <p>￥<strong>55</strong> <span>已售</span>1160291</p>
+                </div>
+                <div class="guess-item">
+                    <a href="" class="guess-item-pic">
+                        <img src="images/guess-pic3.jpg" alt="" />
+                        <span>3</span>
+                    </a>
+                    <h4><a href="">【15店通用】好伦哥单人自助餐</a></h4>
+                    <p>￥<strong>52</strong> <span>已售</span>324683</p>
+                </div>
+                <div class="guess-item">
+                    <a href="" class="guess-item-pic">
+                        <img src="images/guess-pic4.jpg" alt="" />
+                        <span>4</span>
+                    </a>
+                    <h4><a href="">【70店通用】正一味韩国料理代金券</a></h4>
+                    <p>￥<strong>22.8</strong> <span>已售</span>269295</p>
+                </div>
+                <div class="guess-item" style="border-bottom: none;">
+                    <a href="" class="guess-item-pic">
+                        <img src="images/guess-pic5.jpg" alt="" />
+                        <span>5</span>
+                    </a>
+                    <h4><a href="">【41店通用】新辣道鱼火锅代金券</a></h4>
+                    <p>￥<strong>88</strong> <span>已售</span>298118</p>
+                </div>
+            </div>
+            <!-- 猜你喜欢 end -->
+            <!-- 抽奖 start -->
+            <div class="lottery mt10">
+                <a href="">0元抽奖是真的吗？</a>
+                <ul>
+                    <li>薇拉宫邸私人婚礼会所，免费享</li>
+                    <li>浙江康恩贝健康科技有限公司，免费享 </li>
+                    <li>福建省安溪闽绿茶业有限公司，免费享 </li>
+                </ul>
+            </div>
+            <!-- 抽奖 end -->
+            <!-- 校园招聘 start -->
+            <div class="recruit mt10">
+                <a href="" class="school">2015校园招聘</a>
+                <div>
+                    <a href="" class="feedback">有您的建议，美团才能更好»</a>
+                    <a href="" class="coperation"><span>希望在美团网组织团购么？</span>请提交团购信息»</a>
+                </div>
+            </div>
+            <!-- 校园招聘 end -->
+            <!-- 最近浏览 start -->
+            <div class="history mt10">
+                <h3><a href="" class="clear-btn">清空</a>最近浏览</h3>
+                <ul>
+                    <li>
+                        <img src="images/history-pic1.jpg" alt="" />
+                        <h5><a href="">天外天烤鸭特惠烤鸭1套1份</a></h5>
+                        <p><strong>¥ 68</strong> 门店价
+                            <del>¥178</del>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/history-pic2.jpg" alt="" />
+                        <h5><a href="">三只耳河鲜馆4人餐</a></h5>
+                        <p><strong>¥ 318</strong> 门店价
+                            <del>¥517</del>
+                        </p>
+                    </li>
+                    <li style="border-bottom: none;">
+                        <img src="images/history-pic3.jpg" alt="" />
+                        <h5><a href="">吉野家鲷鱼烧2个1份</a></h5>
+                        <p><strong>¥ 9.9</strong> 门店价
+                            <del>¥16</del>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 最近浏览 end -->
+        </div>
+        <!-- 侧栏 end -->
+    </div>
+    <!-- 主体内容end-->
+    <div class="clear"></div>
+    <!-- footer区域start -->
+    <div class="w980 bc" id="footer">
+        <!-- <img src="img/src/footer.png" /> -->
+        <!-- tab切换start -->
+        <ul class="tab-btn" id="tab-btn">
+            <li style="background: #eee;">团购分类</li>
+            <li>热门地标</li>
+            <li>周边城市</li>
+            <li>品牌推荐</li>
+            <li>专题推荐</li>
+            <li>品类推荐</li>
+            <li>友情链接</li>
+        </ul>
+        <div class="tab-content" id="tab-content">
+            <a href="###">美食团购</a><a href="###">电影团购</a><a href="###">休闲娱乐团购</a><a href="###">旅游团购</a><a href="###">生活服务团购</a><a href="###">购物团购</a><a href="###">丽人团购</a><a href="###">团购评论</a><a href="###">品牌团购</a><a href="###">专题团购</a><a href="###">美团团购</a>
+        </div>
+        <!-- tab切换end -->
+        <!-- 超链接列表start -->
+        <div class="cominfo">
+            <div class="fl alist">
+                <ul class="fl">
+                    <h3>获取更新</h3>
+                    <li><a href="###">邮件订阅</a></li>
+                    <li><a href="###">iPhone/Android</a></li>
+                    <li><a href="###">美团QQ空间</a></li>
+                    <li><a href="###">美团新浪微博</a></li>
+                    <li><a href="###">sitemap</a></li>
+                    <li><a href="###">RSS订阅</a></li>
+                </ul>
+                <ul class="fl">
+                    <h3>获取更新</h3>
+                    <li><a href="###">商家合作</a></li>
+                    <li><a href="###">美团商家营销平台</a></li>
+                    <li><a href="###">到店餐饮代理商招募</a></li>
+                    <li><a href="###">市场合作</a></li>
+                    <li><a href="###">美团联盟</a></li>
+                    <li><a href="###">美团云</a></li>
+                    <li><a href="###">廉正邮箱</a></li>
+                    <li><a href="###">聚宝盆餐饮开放平台</a></li>
+                    <li><a href="###">美团点评智能收银机</a></li>
+                </ul>
+                <ul class="fl">
+                    <h3>获取更新</h3>
+                    <li><a href="###">关于美团</a></li>
+                    <li><a href="###">美团承诺</a></li>
+                    <li><a href="###">媒体报道</a></li>
+                    <li><a href="###">加入我们</a></li>
+                    <li><a href="###">法律声明</a></li>
+                    <li><a href="###">用户协议</a></li>
+                    <li><a href="###">隐私政策</a></li>
+                    <li><a href="###">商户服务协议</a></li>
+                    <li><a href="###">美团点评餐饮安全管理办法</a></li>
+                </ul>
+                <ul class="fl">
+                    <h3>获取更新</h3>
+                    <li><a href="###">申请退款</a></li>
+                    <li><a href="###">查看美团券密码</a></li>
+                    <li><a href="###">常见问题</a></li>
+                    <li><a href="###">开放API</a></li>
+                    <li><a href="###">反诈骗公告</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <img src="img/footer-right.png" />
+            </div>
+        </div>
+        <!-- 超链接列表end -->
+    </div>
+    <!-- <img src="img/footer-end.png" /> -->
+    <!-- footer区域end -->
+    <script type="text/javascript" src="js/move.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
+</body>
+
+</html>

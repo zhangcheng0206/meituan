@@ -1,0 +1,24 @@
+/* 列表页的样式 */
+
+.search{margin-left:100px;}/*调整搜索框的位置*/
+
+
+#nav>.nav-list{padding-left:5px;}
+#nav>.nav-list>li{height:40px; line-height: 40px; padding:0 23px;}
+#nav>.nav-list>li>a{font-size:14px; font-weight: bold;}
+#nav>.nav-list>li:hover{background: #00C3B0;}
+
+.subnav>.subnav-list{border:1px solid #eee; border-top:0; height:477px; position: relative;}
+.subnav>.subnav-list>li{padding-right: 32px; padding-left:10px; border-bottom:1px solid #eee; height:52px; line-height: 52px; position: relative;}
+.subnav>.subnav-list>li>span{color:#666; position: absolute; right:16px;top:0;}
+.subnav>.subnav-list>li>.line{position: absolute;}
+.subnav>.subnav-list>li>.t{width:1px; height:52px; background: #fff; right:-1px; top:0;}
+.subnav>.subnav-list>li>.l{width:13px; height:1px; background: #eee; right:0px; bottom:-1px;}
+
+.subnav>.subnav-list .dis{display: none;}
+.subnav>.subnav-list>li:hover>.dis{display: block;}
+.subnav>.subnav-list>li:hover+ul.dis{display: block;}
+.subnav>.subnav-list>li:hover{background-color:#fff;}
+.subnav>.subnav-list>li:hover>span{display: none;}
+.subnav:hover>.subnav-list,.subnav:hover .threenav{border-color:#ccc;}
+.subnav:hover>.subnav-list{border-right-color: #eee;}
